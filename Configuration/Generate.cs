@@ -4,7 +4,7 @@ namespace Bingo.Configuration
 {
     public class Generate
     {
-        public static List<Card> GenerateNumbers(int card, int num)
+        public static List<Card> GenerateNumbers(int card, int num, string _title)
         {
             List<Card> cards = new List<Card>();
 
@@ -13,7 +13,7 @@ namespace Bingo.Configuration
                 Card c = new Card();
                 c.IdCard = i + 1;
                 c.Bingo = "BINGO";
-                c.City = "Libertad del Toachi";
+                c.City = _title;
                 c.Developer = "Hecho por Between Byte Software";
                 c.Phone = "0960806054";
                 c.Data = GenerateCard(card, num);

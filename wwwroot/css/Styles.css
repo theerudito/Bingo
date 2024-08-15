@@ -1,0 +1,110 @@
+﻿.containerMain {
+    user-select: none;
+}
+
+.containerControl {
+    display: flex;
+    margin: 10px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+    .containerControl > input {
+        border: none;
+        margin: 10px;
+        border-radius: 5px;
+        background: #f2f2f2;
+    }
+
+        .containerControl > input:focus {
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            background: #f2f2f2;
+            outline: none;
+        }
+
+    .containerControl > button {
+        border: none;
+        border-radius: 5px;
+        width: 100px;
+        margin: 10px;
+        cursor: pointer;
+    }
+
+.containerBody {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerCard {
+    background: #b9f6ca;
+    width: 350px;
+    height: 430px;
+    margin: 10px;
+}
+
+.containerCardHeader {
+    border-bottom: solid 1px gray;
+}
+
+    .containerCardHeader > h5 {
+        margin: 0px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .containerCardHeader > div {
+        display: flex;
+        flex-direction: row
+    }
+
+    .containerCardHeader > div h3 {
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+.containerCardBody {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin: 10px;
+}
+
+    .containerCardBody > div {
+        width: 60px;
+        height: 60px;
+        border: solid 1px black;
+        margin: 2px;
+        display: flex;
+        display: flex; flex-direction: row
+    }
+
+        .containerCardBody > div > h3 {
+            display: flex;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+.containerCardFooter {
+    display: flex;
+    margin: 0px;
+    flex-direction: column;
+    border-top: solid 1px gray;
+}
+
+    .containerCardFooter > p {
+        margin: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+    }
